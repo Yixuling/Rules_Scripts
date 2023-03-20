@@ -1,0 +1,10 @@
+#!name=🚧 System VPN Proxy
+#!desc=同时开启VPN和Surge的增强代理的时候让相关流量走VPN通道
+#!system=mac
+#!author=Kiddo
+#!category=🐱 Kiddo
+#!arguments=Proxy:"🚧 System VPN"
+
+[Rule]
+IP-CIDR,192.168.0.1/24,{{{Proxy}}},no-resolve
+IP-CIDR,192.168.1.1/24,{{{Proxy}}},no-resolve
