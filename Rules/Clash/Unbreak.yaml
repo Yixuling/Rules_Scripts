@@ -1,0 +1,51 @@
+payload:
+  # Unbreak
+  # > Google
+  - DOMAIN-SUFFIX,blog.google
+  - DOMAIN-SUFFIX,googletraveladservices.com
+  - DOMAIN,clientservices.googleapis.com
+  - DOMAIN,dl.google.com
+  - DOMAIN,dl.l.google.com
+  - DOMAIN,update.googleapis.com
+  # >> Firebase Cloud Messaging
+  - DOMAIN,mtalk.google.com
+  - DOMAIN,alt1-mtalk.google.com
+  - DOMAIN,alt2-mtalk.google.com
+  - DOMAIN,alt3-mtalk.google.com
+  - DOMAIN,alt4-mtalk.google.com
+  - DOMAIN,alt5-mtalk.google.com
+  - DOMAIN,alt6-mtalk.google.com
+  - DOMAIN,alt7-mtalk.google.com
+  - DOMAIN,alt8-mtalk.google.com
+
+# > Nexitally 订阅
+  - DOMAIN,sub.nexconvert.com
+  - DOMAIN,dsfidx.lol
+
+# > Steam直连
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,cm.steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - IP-CIDR,45.121.184.0/24
+  - IP-CIDR,103.10.124.0/23
+  - IP-CIDR,103.28.54.0/24
+  - IP-CIDR,146.66.152.0/24
+  - IP-CIDR,146.66.155.0/24
+  - IP-CIDR,153.254.86.0/24
+  - IP-CIDR,155.133.224.0/22
+  - IP-CIDR,155.133.230.0/24
+  - IP-CIDR,155.133.232.0/23
+  - IP-CIDR,155.133.234.0/24
+  - IP-CIDR,155.133.236.0/22
+  - IP-CIDR,155.133.240.0/23
+  - IP-CIDR,155.133.244.0/23
+  - IP-CIDR,155.133.246.0/24
+  - IP-CIDR,155.133.248.0/21
+  - IP-CIDR,162.254.192.0/21
+  - IP-CIDR,185.25.182.0/23
+  - IP-CIDR,190.217.32.0/22
+  - IP-CIDR,192.69.96.0/22
+  - IP-CIDR,205.196.6.0/24
+  - IP-CIDR,208.64.200.0/22
+  - IP-CIDR,208.78.164.0/22
+  - IP-CIDR,205.185.194.0/24

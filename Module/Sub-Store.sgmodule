@@ -1,0 +1,13 @@
+#!name=Sub-Store
+#!desc=高级订阅管理工具
+#!icon=https://raw.githubusercontent.com/58xinian/icon/master/Sub-Store1.png
+#!homepage=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/config/Surge.sgmodule
+
+[Script]
+Sub-Store Core=type=http-request,pattern=^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))),script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js,requires-body=true,timeout=120
+Sub-Store Simple=type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js,requires-body=true
+# 凌晨1点更新
+Sub-Store Sync=type=cron,cronexp=0 01 * * *,wake-system=1,timeout=120,script-path=https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
+
+[MITM]
+hostname=%APPEND% sub.store
