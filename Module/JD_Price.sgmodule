@@ -1,0 +1,8 @@
+#!name=Display JD Historical Price
+#!desc=京东App历史价格
+
+[Script]
+http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/Yixuling/Rules_Scripts/master/Scripts/JD_Price.js
+
+[MITM]
+hostname =  %APPEND% api.m.jd.com
