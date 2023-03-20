@@ -1,0 +1,18 @@
+# Apple直连的规则
+DOMAIN-SUFFIX, ls.apple.com,DIRECT // Apple Maps
+DOMAIN-SUFFIX, store.apple.com,DIRECT // Apple Store Online
+
+# --------DOWNLOAD--------
+# > Store
+USER-AGENT, com.apple.appstored*
+DOMAIN-SUFFIX, mzstatic.com
+DOMAIN, iosapps.itunes.apple.com
+DOMAIN, osxapps.itunes.apple.com
+
+#  > Update
+DOMAIN, updates.cdn-apple.com //system update
+DOMAIN, supportdownload.apple.com
+DOMAIN, appldnld.apple.com
+DOMAIN, swcdn.apple.com
+DOMAIN, apptrailers.itunes.apple.com
+DOMAIN, updates-http.cdn-apple.com
